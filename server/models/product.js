@@ -5,7 +5,8 @@ const productschema = mongoose.Schema({
     },
     Price:{
         type:String
-    },
+    },Maincategory:{type:String},
+    subcategory:{type:String},
   categoryid:{
     type:String
   }
